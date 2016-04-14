@@ -1,16 +1,16 @@
 <div class="container">
   <% if current_user %>
-    <h1>Welcome to Small Book</h1>
-    <p>The facebook clone made in ruby on rails.</p>
-    <%= image_tag "frontpagelogo.jpg", class: "img-responsive" %>
-    <p>Made by <%= link_to 'Kenneth Gould', "http://www.javascriptisscary.com" %> </p>
+    <h1>Welcome to Mentor List</h1>
+    <p>The only place to find a mentor.</p>
+    <%= image_tag "frontpagelogo.png", class: "img-responsive" %>
+    <p>Made by <%= link_to 'Blaise Larrabee', "http://www.blaiselarrabee.com" %> </p>
   </div>
   <% else %>
   <div class="col-md-7 col-xs-12">
-    <h1>Welcome to Small Book</h1>
-    <p>The facebook clone made in ruby on rails.</p>
-    <%= image_tag "frontpagelogo.jpg", class: "img-responsive" %>
-    <p>Made by <%= link_to 'Kenneth Gould', "http://www.javascriptisscary.com" %> </p>
+    <h1>Welcome to Mentor List</h1>
+    <p>The only place to find a mentor.</p>
+    <%= image_tag "frontpagelogo.png", class: "img-responsive" %>
+    <p>Made by <%= link_to 'Blaise Larrabee', "http://www.blaiselarrabee.com" %> </p>
   </div>
   <div class="col-md-5 col-xs-12">
     <h2><strong>Sign Up</strong></h2>
@@ -50,7 +50,7 @@
           <%= f.text_field :birthday, class:"form-control input-lg", id: "datepicker", placeholder: "Date of Birth YYYY-MM-DD" %>
         </div>
         <div class="field form-group">
-          <%= f.number_field :zip, class:"form-control input-lg", placeholder: "6 Digit Zip Code" %>
+          <%= f.number_field :zip, class:"form-control input-lg", placeholder: "5 Digit Zip Code" %>
         </div>
         <div class="form-group text-center">
           <%= f.submit "Create an account", class: "btn btn-success sign-up" %>

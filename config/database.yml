@@ -5,8 +5,8 @@ development:
   encoding: unicode
   database: smallbook
   pool: 5
-  username: kenny
-  password: toaster
+  username: postgres
+  password: blaise
   host: :localhost
 
 
